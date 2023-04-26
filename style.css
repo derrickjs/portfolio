@@ -1,0 +1,673 @@
+*{
+	box-sizing: border-box;
+	font-family: sans-serif;
+    margin:0;
+    padding:0
+}
+
+body{
+    
+    margin:0;
+	padding:0;
+	background-color: #949494;
+	
+	min-height: 400px;
+
+
+}
+
+/* header section starts */
+li, a , button {
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 1.3rem;
+	color: white;
+	text-decoration: none;
+	list-style-type: none;
+   
+	
+
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: solid 1px black;
+    background-color: black;
+}
+
+.logo{
+	cursor: pointer;
+	
+	
+}
+
+
+.nav-link{
+	list-style: none;
+	
+}
+
+.nav-link li {
+	display: inline-block;
+	margin: 1em;
+}
+
+.nav-link li a {
+	transition: all 0.8s ease 0s;
+	padding: 1em;
+    
+}
+
+.nav-link li a:hover {
+	color: black;
+	background-color: white;
+	border-radius: 50%;
+    
+
+}
+
+.nav-link li a:focus{
+    color:black;
+    background-color:white;
+    border-radius: 50%;
+    
+}
+
+/* header section ends */
+
+
+
+
+
+/* content starts */
+
+.projects{
+    text-align: center;
+}
+
+.h2-projects{
+    font-size: 3em;
+
+}
+
+.p-projects{
+    font-size: 2em;
+    text-indent: 0%;
+
+}
+
+
+
+
+/* content ends */
+
+.content1 {
+	display: grid;
+	position: inline-block;
+	grid-template-columns: 3fr 2fr;
+	grid-template-rows: 1fr;
+	grid-column-gap: 2%;
+	grid-row-gap: 0px;
+	min-height:95vh;
+
+	
+	
+	}
+
+    .contenth2{
+        display:none;
+    }
+  
+    h2{
+        margin: 0 auto;
+        padding: 3% 0;
+
+        
+    }
+
+    .services{
+        text-align: center;
+        
+    }
+
+    .li-service{
+        font-size: 3rem;
+        color:black;
+        padding: 2%;
+    }
+
+    .imgright{
+        float:right;
+        border: 2px black solid;
+        border-radius: 3%;
+    }
+
+    .righth2{
+        margin: 5% 5%;
+        font-size: 4rem;
+        text-align: center;
+        border:2px solid black;
+        border-radius: 50%;
+      }
+
+    .rightside{
+		box-sizing: border-box;
+		margin:0 auto;
+		font-family: sans-serif;
+        padding-right: 4%;
+		
+		width: 100%;
+       
+		
+		
+	  }
+    
+
+    .leftside{
+        
+        padding-left: 4%; 
+        font-size: 1.5rem;
+        padding-bottom: 20%;
+        
+        
+    }
+
+    p{
+        text-indent: 8%;
+        font-size: 1.4em;
+       
+       
+        
+    }
+  
+	a{
+		font-size: 1.5rem;
+	}
+
+	
+
+	
+
+	.history p:last-child{
+		padding-bottom: 2%;
+		border-bottom: 2px solid black;
+	}
+
+
+
+
+
+    
+      .bigger{
+        font-size:2em;
+        color: #514e40;
+      }
+      
+      
+       
+        
+      
+      
+      hr{
+        width: 50%;
+        height:4px;
+        margin: 5% auto;
+        background: black;
+        
+        }
+
+		
+	
+      
+
+
+
+
+
+/* footer begins */
+
+footer {
+	display:flex;
+    color : white;
+	background-color: black;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 5vh;
+	width: 100%;
+	border-top: 1px solid black;
+	justify-content:center;
+	align-items:center;
+   
+	
+	 
+	
+	}
+	 
+    .phone , .address , .copyright {
+	   
+        font-size: .8rem;
+     margin:auto;
+      }
+      
+      .copyright{
+         font-size: 1.05rem;
+      }
+	 
+	 
+     
+	 /* footer ends */
+
+	
+
+
+
+      
+
+	  #title{
+		margin-bottom: 1em;
+		
+	  }
+	  
+	  
+	  #msg {
+		display:block;
+		width: 75%;
+		height: 15vh;
+	  }
+	  
+	  #title{
+		text-align: center;
+	  }
+
+	  
+
+      .show{
+        color:black;
+        font-size:2.5rem;
+        text-align: center;
+        display:none;
+        
+        
+       
+        
+        
+      }
+
+      .imgAppear{
+        border: solid black 2px;
+        margin-bottom: 15%;
+        border-radius: 5%;
+      }
+      
+    form{
+		width: 50%;
+		background-color: white;
+		padding: 2em;
+		margin: 5em auto;
+		border:  solid 1px;
+		font-size: 1.5rem;
+        display: block;
+        border-radius: 2%;
+		
+	  }
+
+      button{
+        color: black;
+        text-align: center;
+        margin:3%;
+        padding: 2%;
+        border:solid black 1px;
+        border-radius: 50%;
+        background-color: white;
+        
+        
+      }
+
+      
+button  {
+	transition: all 0.8s ease 0s;
+	padding: 1em;
+    
+}
+
+button:hover {
+	color:white;
+	background-color: black;
+	border-radius: 50%;
+
+}
+
+
+
+      .buttonArea{
+       
+       display:flex;
+       justify-content: center;
+      
+
+       
+      }
+
+
+
+
+.image{
+    border:black 2px solid;
+    border-radius: 2%;
+    
+    
+
+    
+}
+
+/* grid setup */
+
+
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+  }
+
+  h3{
+    padding:3%;
+    font-size:1.5em;
+  }
+
+  .buttonlink{
+    background-color: black;
+    color:white
+  }
+
+  .buttonlink:hover{
+    background-color: lightskyblue;
+    color: black;
+  }
+
+  
+  
+  .section1,
+  .section2,
+  .section3,
+  .section4,
+  .section5,
+  .section6,
+  .section7,
+  .section8,
+  .section9 {
+    display: inline-block; 
+    align-items: center;
+    justify-content: center;
+    width: 87%;
+    margin: 2%;
+    margin-bottom: 8%;
+    padding: 4%;
+    color:white;
+    background-color: black;
+    min-height: 200px;
+    text-align: center;
+    border: 6px solid #2b2b2b; 
+    border-radius: 5%;
+    
+  }
+  
+  .section1 {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    background-image: url("https://res.cloudinary.com/derrickstahlman/image/upload/v1679926314/rick_guelzz.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #262c39;
+    background-position: bottom left;
+    
+   
+  }
+  
+  .section2 {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    
+    background-image: url("https://res.cloudinary.com/derrickstahlman/image/upload/v1678513827/pokeball_zv5ueb.webp");
+    
+  }
+  
+  .section3 {
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+    background-image: url("https://res.cloudinary.com/derrickstahlman/image/upload/v1653313800/egg_truck_kasrqe.png");
+    background-size: 150%;
+    color: black;
+  }
+
+  
+
+  .githubLink{
+    color: aquamarine;
+    font-size: 2em;
+    font-weight: bolder;
+    background-color: black;
+    padding: 2%;
+    border-radius: 50%;
+  }
+  
+  .section4 {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    background-image: url("https://res.cloudinary.com/derrickstahlman/image/upload/v1682513903/phoneImage_uy46ct.jpg");
+    background-size: 100%;
+    color:black;
+    background-color: #d9dbdd;
+    background-repeat: no-repeat;
+   
+    background-position: bottom right;
+  }
+  
+  .section5 {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    background-image: url("https://res.cloudinary.com/derrickstahlman/image/upload/v1663624006/ninja_1_jvcmje.png");
+    background-size: 30%;
+    background-repeat: no-repeat;
+   
+    background-position: bottom left;
+  }
+  
+  .section6 {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+    background-image: url("https://res.cloudinary.com/derrickstahlman/image/upload/v1682517202/snow_pmy2fb.jpg");
+    background-size: 200%;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+  }
+  
+  .section7 {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+    background-image: url("https://res.cloudinary.com/derrickstahlman/image/upload/v1644430276/free_background_image_xlsr0o.jpg");
+    background-size: 175%;
+    
+  }
+  
+  .section8 {
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+    background-image: url("https://res.cloudinary.com/derrickstahlman/image/upload/v1682521681/triangle_pfbv9s.png");
+    background-size: 100%;
+    color: black;
+    background-color: #154847;
+    
+ 
+
+  }
+  
+  .section9 {
+    grid-row: 3 / 4;
+    grid-column: 3 / 4;
+    background-image: url("https://res.cloudinary.com/derrickstahlman/image/upload/v1682523888/moose_pbfciu.jpg");
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color: black;
+  
+  
+
+  }
+
+  .githubLink:hover{
+        color: hotpink;
+  }
+  
+
+ 
+
+  
+
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+    .grid-container {
+        grid-template-rows: repeat(9, 1fr);
+        grid-template-columns: 1fr;
+      }
+      
+      .section1 {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+      }
+      
+      .section2 {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+      }
+      
+      .section3 {
+        grid-row: 3 / 4;
+        grid-column: 1 / 2;
+      }
+      
+      .section4 {
+        grid-row: 4 / 5;
+        grid-column: 1 / 2;
+      }
+      
+      .section5 {
+        grid-row: 5 / 6;
+        grid-column: 1 / 2;
+      }
+      
+      .section6 {
+        grid-row: 6 / 7;
+        grid-column: 1 / 2;
+      }
+      
+      .section7 {
+        grid-row: 7 / 8;
+        grid-column: 1 / 2;
+      }
+      
+      .section8 {
+        grid-row: 8 / 9;
+        grid-column: 1 / 2;
+      }
+      
+      .section9 {
+        grid-row: 9 / 10;
+        grid-column: 1 / 2;
+      }
+
+   
+    .content1{
+        display: block;
+        width: 100%;
+        
+        
+    }
+    .leftside {
+        display:block;
+          width: 100%;
+        padding:2%;
+    }
+
+    .rightside{
+    display: block;
+    padding-bottom: 90%;
+    margin-bottom: 15%;
+    padding:2%;
+    }
+
+    
+
+    .contenth2{
+        padding-top:20%;
+        display: block;
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .logo{
+        display: block;
+        margin:0 auto;
+        margin-bottom: 5%;
+        border-radius: 20%;
+    }
+    header{
+        display: block;
+        background-color: black;
+        padding-bottom: 5%;
+
+
+    }
+
+    ul.nav-link{
+        padding:0;
+        text-align: center;
+    }
+
+    footer{
+        height:5vmax;
+        
+    }
+
+    .nav-link li a:hover{
+        color: black;
+        background-color: white;
+    }
+
+    li, a , button{
+        color:white;
+    }
+
+    form.form{
+        width: 100%;
+        
+    }
+
+    .imgAppear{
+        width:80%
+    }
+
+    .mappic{
+        width: 90%;
+        margin-bottom: 10%;
+    }
+
+.imgright{
+    width:100%;
+}
+     
+
+h1.mapheader{
+    font-size:2rem;
+}
+
+}
